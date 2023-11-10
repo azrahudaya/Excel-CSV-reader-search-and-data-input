@@ -1,14 +1,14 @@
 import pandas as pd
-
+#================================================================================#
 file_xlsx = "absen-ia23.xlsx"
 file_csv = "absen-ia23.csv"
-
+#================================================================================#
 while True:
     try:
         df = pd.read_excel(file_xlsx)
     except FileNotFoundError:
         df = pd.DataFrame(columns=["Nama", "NPM", "Kelas", "Keterangan"])
-
+#================================================================================#
     print("Pilih opsi:")
     print("1. Baca file Excel")
     print("2. Input data ke file Excel")
@@ -17,10 +17,11 @@ while True:
     print("5. Cari mahasiswa berdasarkan NPM")
     print("6. Keluar")
     option = input("Masukkan pilihan (1/2/3/4/5/6): ")
-
+#================================================================================#
     if option == "1":
         print("DataFrame setelah membaca file Excel:")
         print(df.to_string(index=False))
+#================================================================================#
     elif option == "2":
         if df is None:
             df = pd.DataFrame(columns=["Nama", "NPM", "Kelas", "Keterangan"])
@@ -43,6 +44,7 @@ while True:
         print("\nDataFrame setelah penambahan data:")
         print(df.to_string(index=False))
         df.to_excel(file_xlsx, index=False)
+#================================================================================#
     elif option == "3":
         try:
             df_csv = pd.read_csv(file_csv)
@@ -50,6 +52,7 @@ while True:
             print(df_csv.to_string(index=False))
         except FileNotFoundError:
             print("File CSV tidak ditemukan.")
+#================================================================================#
     elif option == "4":
         nama = input("Masukkan Nama: ")
         while True:
@@ -70,6 +73,7 @@ while True:
         df_csv.to_csv(file_csv, index=False)
         print("\nDataFrame setelah penambahan data ke file CSV:")
         print(df_csv)
+#================================================================================#
     elif option == "5":
         while True:
             npm_cari_input = input("Masukkan NPM yang ingin dicari: ")
@@ -85,9 +89,10 @@ while True:
             print(mahasiswa[["Nama", "NPM", "Kelas", "Keterangan"]])
         else:
             print("Mahasiswa dengan NPM", npm_cari, "tidak ditemukan.")
+#================================================================================#
     elif option == "6":
         break
     else:
         print("Pilihan tidak valid. Silakan pilih 1, 2, 3, 4, 5, atau 6.")
-
+#================================================================================#
 print("Program ditutup.")
