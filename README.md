@@ -22,9 +22,8 @@ Ikuti petunjuk di layar untuk melakukan berbagai operasi pada data kehadiran.
 
 **Requirement:**
 
-Python 3.x
-
-Perpustakaan Pandas
+* Python 3.x
+* Perpustakaan Pandas
 
 **Kontribusi:**
 
