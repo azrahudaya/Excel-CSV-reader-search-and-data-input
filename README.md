@@ -20,9 +20,10 @@ Klon repositori ke mesin lokal Anda.
 Jalankan skrip Python di lingkungan pilihan Anda.
 Ikuti petunjuk di layar untuk melakukan berbagai operasi pada data kehadiran.
 
-**Dependencies:**
+**Requirement:**
 
 Python 3.x
+
 Perpustakaan Pandas
 
 **Kontribusi:**
