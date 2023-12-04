@@ -1,8 +1,12 @@
-# Sistem Manajemen Kehadiran dengan Pandas
+# Excel & CSV reader, search, and data input program
+
+
+<img width="365" alt="image" src="https://github.com/azrahudaya/aplikasi-absensi-python-pandas/assets/95754136/437eae8d-5b15-4e34-a9d5-57c87d67e298">
+
 
 **Deskripsi:**
 
-Repositori GitHub ini berisi skrip Python untuk Sistem Manajemen Kehadiran menggunakan perpustakaan Pandas. Sistem ini memungkinkan pengguna untuk membaca dan memanipulasi data kehadiran yang disimpan dalam format Excel dan CSV. Fitur utama mencakup membaca dan menampilkan data, menambahkan entri baru, mencari mahasiswa berdasarkan NPM (Nomor Pokok Mahasiswa), dan menyimpan data baik dalam file Excel maupun CSV untuk manajemen yang mudah.
+Repositori GitHub ini berisi skrip Python untuk Sistem Manajemen Kehadiran menggunakan library Pandas. Sistem ini memungkinkan pengguna untuk membaca dan memanipulasi data kehadiran yang disimpan dalam format Excel dan CSV. Fitur utama mencakup membaca dan menampilkan data, menambahkan entri baru, mencari mahasiswa berdasarkan NPM (Nomor Pokok Mahasiswa), dan menyimpan data baik dalam file Excel maupun CSV untuk manajemen yang mudah.
 
 **Fitur:**
 
@@ -14,20 +18,16 @@ Mencari mahasiswa berdasarkan NPM mereka.
 Antarmuka konsol yang ramah pengguna untuk interaksi yang mudah.
 Pemeriksaan konsistensi data untuk memastikan entri NPM yang unik.
 
-**Penggunaan:**
-
-Klon repositori ke mesin lokal Anda.
-Jalankan skrip Python di lingkungan pilihan Anda.
-Ikuti petunjuk di layar untuk melakukan berbagai operasi pada data kehadiran.
-
 **Requirement:**
 
 * Python 3.x
 * Perpustakaan Pandas
 
-**Kontribusi:**
-
-Kontribusi untuk meningkatkan fungsionalitas, meningkatkan pengalaman pengguna, atau memperbaiki masalah sangat diterima. Harap ikuti pedoman kontribusi standar.
+**Cara Install Penggunaan:**
+* Install python
+* install moudele pandas dan openpyxl
+* download code
+* run
 
 **Penulis:**
 
