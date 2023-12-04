@@ -23,11 +23,13 @@ Pemeriksaan konsistensi data untuk memastikan entri NPM yang unik.
 * Python 3.x
 * Library Pandas
 
-**Cara Install Penggunaan:**
+**Cara Penggunaan:**
 * Install python
 * install moudele pandas dan openpyxl
 * download code
 * run
+
+catatan: Simpanlah file dengan format xlsx, csv, dan kode program dalam satu file yang sama.
 
 **Penulis:**
 
