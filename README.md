@@ -21,7 +21,7 @@ Pemeriksaan konsistensi data untuk memastikan entri NPM yang unik.
 **Requirement:**
 
 * Python 3.x
-* Perpustakaan Pandas
+* Library Pandas
 
 **Cara Install Penggunaan:**
 * Install python
