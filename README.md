@@ -29,7 +29,10 @@ Pemeriksaan konsistensi data untuk memastikan entri NPM yang unik.
 * download code
 * run
 
-catatan: Simpanlah file dengan format xlsx, csv, dan kode program dalam satu file yang sama.
+**catatan:**
+* Simpanlah file dengan format xlsx, csv, dan kode program dalam satu file yang sama.
+* Sebelum digunakan, nama file xlsx/csv harus sama dengan yang ada di dalam source code.
+         
 
 **Penulis:**
 
